@@ -3,6 +3,7 @@ import logo from "../assets/images/logo-tr.png";
 import dollar from "../assets/images/dollar.png";
 
 
+
 const Homepage = () => {
    
     const [coins,setCoins]  =useState(0);
@@ -15,7 +16,8 @@ const Homepage = () => {
         }, 200);
     }
     return (
-        <div className="min-h-screen relative h-full bg-zinc-500 py-4">
+        <div className={`min-h-screen homepage relative h-full bg-zinc-500 py-4`}>
+            
             <div className="flex gap-2 justify-center">
             <div className="bg-zinc-900 p-4 text-zinc-300 flex items-center text-sm rounded"><img className="h-5  mb-1 mr-1" src={dollar}/>1M coins = $1</div>
             <div className="bg-zinc-900 p-4 text-zinc-300 flex items-center text-sm rounded"><img className="h-10 mb-2 invert" src={logo}/>Per Click 100 Falcoin</div>

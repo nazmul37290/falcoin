@@ -7,7 +7,10 @@
 *{
   font-family: "Laila", serif;
 }
-
+.homepage{
+  background: url("./assets/images/raining-coin.gif");
+  background-size:cover;
+}
 .coin-add{
   animation: coin-add .4s ease-in-out;
   position: absolute;
